@@ -1,4 +1,21 @@
-html {
-  height: 100%;
-  width: 100%;
+h2 {
+    padding-bottom: 20px; /* Adjust as needed */
+}
+.card img {
+    width: 100%;  /* Ensures image fills the card */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Prevents distortion */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+/* --- GFG green override for .btn-primary --- */
+.btn-primary {
+  background-color: #2F8D46;
+  border-color: #2F8D46;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #276f3a ; /* a shade darker */
+  border-color:     #276f3a;
+  transform: scale(1.05);
 }
